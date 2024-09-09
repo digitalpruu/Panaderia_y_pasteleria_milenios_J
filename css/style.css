@@ -1291,7 +1291,7 @@ display: block;
 .primary-button{
      background: linear-gradient(207.8deg, #fdfd96 16.69%, #595959 100%);
      border-radius: 8px;
-     width: 400px;
+     max-width: 400px;
      height: 80px;
      font-size: 2em;
      color: white;
@@ -1390,7 +1390,7 @@ padding-bottom: 33px;
      
  }
 .call_now2 span {
-     font-size: 31px;
+     font-size: 21px;
      line-height: 30px;
      font-weight: bold;
      color: #000;
@@ -1405,7 +1405,7 @@ padding-bottom: 33px;
 }
 
 .call_now h3 {
-     font-size: 40px;
+     font-size: 30px;
 line-height: 40px;
 font-weight: 700;
 color: #000;
@@ -1413,7 +1413,7 @@ padding-bottom: 33px;
      
  }
 .call_now span {
-     font-size: 45px;
+     font-size: 25px;
      line-height: 35px;
      font-weight: bold;
      color: #fff;
@@ -1423,4 +1423,8 @@ padding-bottom: 33px;
 }
 .text-img{
      max-width: 700px;
+}
+.button-container a{
+     min-width: 100px;
+     max-width: 400px;
 }
